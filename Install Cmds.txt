@@ -1,0 +1,31 @@
+apt update
+
+apt install git
+
+apt install curl sudo systemctl -y
+
+git clone https://github.com/notimmortal546/pufferpanel
+
+cd pufferpanel
+
+bash install.sh
+
+apt install wget -y
+
+export TERM=xterm
+
+bash ngrok.sh
+
+cd /etc/pufferpanel
+
+sudo systemctl enable --now pufferpanel
+
+cd
+
+cd pufferpanel-install
+
+./ngrok http 8080 (Copy The Forwarding Link Boom !!)
+
+Email - immortal@gmail.com
+Pass - immortal546
+
