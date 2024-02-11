@@ -10,8 +10,8 @@ apt install git
 ```
 apt install curl sudo systemctl -y
 ```
-```
 # This is the Main Cmd !
+```
 git clone https://github.com/notimmortal546/pufferpanel
 ```
 ```
